@@ -1,0 +1,35 @@
+html {
+    zoom: 150%;
+}
+
+button {
+    border: none;
+    border-radius: 1rem;
+}
+
+.card {
+    box-shadow: 0px 1px 8px black;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+#tech-list {
+    box-shadow: 0px 1px 4px black;
+}
+
+.container {
+    max-width: 60%;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.slide-in {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 1;
+    transform: translateY(0);
+}
