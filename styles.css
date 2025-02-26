@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
     zoom: 150%;
 }
@@ -17,6 +21,7 @@ button {
 
 #tech-list {
     box-shadow: 0px 1px 4px black;
+    background-color: #a986577e;
 }
 
 .container {
@@ -34,6 +39,7 @@ button {
     transform: translateY(0);
 }
 
+
 @media (max-width: 862px) {
     #tech-list {
       min-width: 100%;
@@ -44,6 +50,8 @@ button {
     #tech-list {
       min-width: 100%;
       box-shadow: none;
+      border: none;
+      border-radius: 0;
     }
   
     .container {
