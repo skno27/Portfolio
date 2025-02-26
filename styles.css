@@ -36,22 +36,33 @@ button {
 
 @media (max-width: 862px) {
     #tech-list {
-        min-width: 100%;
+      min-width: 100%;
     }
-    
-}
-@media (max-width: 636px) {
+  }
+  
+  @media (max-width: 636px) {
     #tech-list {
-        min-width: 100%;
-        box-shadow: none;
+      min-width: 100%;
+      box-shadow: none;
     }
-
+  
     .container {
-        min-width: 100%;
+      min-width: 100%;
     }
-
+  
     .border {
-        border: 0;
+      border: 0;
     }
-    
-}
+  }
+  
+  @media (max-width: 712px) {
+    div.proj-btns {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* border: 2px solid black; */
+    }
+    div.proj-btns > button {
+        min-width: 60%;
+    }
+  }
