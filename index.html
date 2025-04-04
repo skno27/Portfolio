@@ -20,302 +20,117 @@
       rel="stylesheet"
       href="./styles.css" />
   </head>
-  <body class="bg-dark bg-gradient py-4">
-    <header>
-      <h1 class="text-danger text-center">Hi, I'm Deshon Morgan</h1>
-      <h3 class="text-light text-center">Software Developer</h3>
-      <div class="w-100 d-flex flex-column align-items-center">
-        <ul
-          id="tech-list"
-          class="list-unstyled border rounded p-2">
-          <div class="w-100 d-flex flex-column align-items-center">
-            <li class="align-items-center">
-              <span class="text-black">Stack: </span
-              ><span class="text-white">
-                MongoDB or PostgreSql, Express, React, Node</span
-              >
-            </li>
-            <li>
-              <span class="text-black">Database Management: </span
-              ><span class="text-white">SQL, MQL, Prisma, GoRM, Mongoose</span>
-            </li>
-            <li class="text-wrap">
-              <span class="text-black">Tools and Techniques: </span
-              ><span class="text-white"
-                >Agile, Git, VSCode, PyCharm, Typescript, Linux, MacOS,
-                Bootstrap, TailwindCSS, Postman</span
-              >
-            </li>
-            <li>
-              <span class="text-black">Other Languages: </span
-              ><span class="text-white">Go, Python</span>
-            </li>
-          </div>
-        </ul>
+  <body class="py-4">
+    <div id="wrapper-div">
+      <div>
+        <h3>My Portfolio</h3>
       </div>
-
-      <!-- SOCIAL MEDIA ICONS -->
-      <div class="w-100 mt-2 d-flex justify-content-center gap-4">
+      <div>
         <a
-          href="https://github.com/skno27"
-          class="btn btn-dark"
+          href="https://profile.coursecareers.com/software-dev-backend/deshon.morgan"
+          class="btn btn-outline-info"
           target="_blank"
-          rel="noopener noreferrer">
-          <i class="bi bi-github"></i> GitHub
+          rel="noopener noreferrer"
+          >Course Careers Profile
         </a>
-        <a
-          href="https://www.linkedin.com/in/shoncoding/"
-          class="btn btn-primary"
-          target="_blank"
-          rel="noopener noreferrer">
-          <i class="bi bi-linkedin"></i> LinkedIn
-        </a>
-      </div>
-      <br />
-      <br />
-    </header>
-
-    <ul class="nav nav-tabs">
-      <li class="nav-item">
-        <a
-          class="nav-link active"
-          data-bs-toggle="tab"
-          href="#about"
-          >About</a
-        >
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          data-bs-toggle="tab"
-          href="#projects"
-          >Projects</a
-        >
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          data-bs-toggle="tab"
-          href="#certifications"
-          >Certifications</a
-        >
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link"
-          data-bs-toggle="tab"
-          href="#contact"
-          >Contact</a
-        >
-      </li>
-    </ul>
-
-    <div class="tab-content well">
-      <!-- about tab -->
-      <div
-        class="container tab-pane fade show active"
-        id="about">
-        <div class="card hidden my-3 p-3 bg-dark text-white">
-          <h4>Background</h4>
-          <p>
-            Gifted with deep technical insight and a hunger to continuously
-            learn, I strive to build efficient, scalable solutions to tech
-            challenges.
-          </p>
-        </div>
-        <div class="card hidden my-3 p-3 bg-dark text-white">
-          <h4>Frontend</h4>
-          <p>
-            Proficient in core web technologies (HTML, CSS, Javascript) and
-            React. Experienced in building dynamic single-page applications and
-            using libraries like Redux to manage state effectively.
-          </p>
-        </div>
-        <div class="card hidden my-3 p-3 bg-dark text-white">
-          <h4>Backend <em class="text-info">(Specialty)</em></h4>
-          <p>
-            Skilled in architecting backend systems, facilitating robust
-            database interactions, and ensuring authentication and encryption.
-            Using Node.js primarily, I focus on maintainability and scalability,
-            providing a seamless user experience and a codebase that integrates
-            well with team development best practices.
-          </p>
-        </div>
-      </div>
-      <!-- projects tab -->
-      <div
-        class="container tab-pane fade"
-        id="projects">
-        <h1>Latest First...</h1>
-        <div class="card hidden my-3 p-3 bg-dark text-white">
-          <h4>Reciplease</h4>
-          <p>
-            This was my first team project. This application suggests recipes to
-            the user based on their health profile input. With goal and nutrient
-            tracking, we provide an intuitive tool for user to achieve weight
-            management and other health goals. Here I focused on backend
-            development, facilitating goal tracking and health profile upkeep,
-            user authentication, and recipe suggestion using a third party api.
-          </p>
-          <div class="proj-btns d-flex gap-2">
-            <button
-              class="w-25"
-              onclick="window.open('https://reciplease-z34t.vercel.app/', '_blank');">
-              Visit
-            </button>
-            <button
-              class="w-25"
-              onclick="window.open('https://github.com/Reciplease-Dev-Team/reciplease', '_blank');">
-              Repo
-            </button>
-          </div>
-        </div>
-        <div class="card hidden my-3 p-3 bg-dark text-white">
-          <h4>AI Sentiment Analysis</h4>
-          <p>
-            I am exploring my interest in artificial intelligence by building
-            and training my own sentiment analysis tool. I am continuously
-            building a dataset based on the user rating their interaction and
-            also cleaning datasets I find on the web in order to improve
-            performance in the next iteration of this project.
-          </p>
-          <div class="proj-btns d-flex gap-2">
-            <button
-              class="w-25"
-              onclick="window.open('https://aacunn.streamlit.app/', '_blank');">
-              Visit
-            </button>
-            <button
-              class="w-25"
-              onclick="window.open('https://github.com/skno27/ai-sentiment-analysis', '_blank');">
-              Repo
-            </button>
-          </div>
-        </div>
-        <div class="card hidden my-3 p-3 bg-dark text-white">
-          <h4>Artist Webpage</h4>
-          <p>
-            Here I created a promotional webpage for a client that I mix music
-            for. The page links to some of the artists latest major releases,
-            and in the future will serve as the point of sale for merchandise.
-          </p>
-          <div class="proj-btns d-flex gap-2">
-            <button
-              class="w-25"
-              onclick="window.open('https://skno27.github.io/glizzyGloArtistPage/', '_blank');">
-              Visit
-            </button>
-            <button
-              class="w-25"
-              onclick="window.open('https://github.com/skno27/glizzyGloArtistPage', '_blank');">
-              Repo
-            </button>
-          </div>
-        </div>
-        <div class="card hidden my-3 p-3 bg-dark text-white">
-          <h4>Quote Social</h4>
-          <p>
-            This was my first full stack application. I created a social
-            experience for user to share quotes and interact with one another.
-            After registering, the user logs in through secure authentication
-            and is directed to a dashboard where they can create new quotes with
-            animated color transitions. From there, the user can access the
-            quotes and comments of other users from the users page.
-          </p>
-          <div class="proj-btns d-flex gap-2">
-            <button
-              class="w-25"
-              onclick="window.open('https://quotesfrontend-imk9.onrender.com', '_blank');">
-              Visit
-            </button>
-            <button
-              class="w-25"
-              onclick="window.open('https://github.com/skno27/QuotesFrontend', '_blank');">
-              Frontend Repo
-            </button>
-            <button
-              class="w-25"
-              onclick="window.open('https://github.com/skno27/QuotesRender_Backend', '_blank');">
-              Backend Repo
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- certifications tab -->
-      <div
-        class="container tab-pane fade"
-        id="certifications">
-        <div class="card hidden my-3 p-3 bg-dark text-white">
-          <h4>Chingu Certificate of Completion</h4>
-          <p>
-            I have completed at least one coding voyage with a team led by
-            Agile/SCRUM Methodologies
-          </p>
-        </div>
-        <div class="card hidden my-3 p-3 bg-dark text-white">
-          <h4>CourseCareers Backend Development Certificate</h4>
-          <p>
-            I have graduated the CourseCareers Backend Development Specialty
-            Course
-          </p>
-        </div>
-        <div class="card hidden my-3 p-3 bg-dark text-white">
-          <h4>CourseCareers Software Development Certificate</h4>
-          <p>
-            I have graduated the CourseCareers Software Development Fundamentals
-            Course
-          </p>
-        </div>
-      </div>
-      <!-- contact tab -->
-      <div
-        class="container tab-pane fade"
-        id="contact">
-        <h1 class="text-white">Let's Connect!</h1>
-        <div class="card hidden my-3 p-3 bg-dark text-white">
-          <h4>Learn more about me or schedule an interview:</h4>
-          <p>
-            <a
-              href="https://profile.coursecareers.com/software-dev-backend/deshon.morgan"
-              >Course Careers Portal</a
-            >
-          </p>
-        </div>
-        <div class="card hidden my-3 p-3 bg-dark text-white">
-          <h4>Email:</h4>
-          <p>DeshonMorgan1317@gmail.com</p>
-        </div>
-        <div class="card hidden my-3 p-3 bg-white text-black">
-          <h4>Follow me:</h4>
-          <div class="d-flex flex-row gap-1">
-            <!-- github -->
-            <a
-              href="https://github.com/skno27"
-              class="btn btn-dark"
-              target="_blank"
-              rel="noopener noreferrer">
-              <i class="bi bi-github"></i>
-            </a>
-            <!-- linkedin -->
-            <a
-              href="https://www.linkedin.com/in/shoncoding/"
-              target="_blank"
-              class="btn btn-primary"
-              rel="noopener noreferrer">
-              <i class="bi bi-linkedin"></i>
-            </a>
-            <!-- x -->
-            <a
-              href="https://x.com/skenoCoding"
-              class="btn btn-dark"
-              target="_blank"
-              rel="noopener noreferrer">
-              <i class="bi bi-twitter-x"></i>
-            </a>
-          </div>
-        </div>
       </div>
     </div>
+    <header>
+      <div
+        id="header-div"
+        class="w-100 d-flex flex-row align-items-center">
+        <div
+          id="header-left"
+          class="w-50">
+          <h1 class="text-danger text-center">Hi, I am</h1>
+          <h1 class="text-danger text-center">Deshon Morgan</h1>
+          <h3 class="text-light text-center">Software Developer</h3>
+          <div class="w-100 d-flex flex-column align-items-center">
+            <h4 class="intro fs-24">
+              I’m a Back-End Developer passionate about security, system design,
+              and serving behind the scenes functionality through modern API
+              technologies. While my expertise centers on back-end development,
+              I also have front-end experience that rounds me out as a
+              full-stack developer. As a self-taught programmer, I began by
+              tackling scripting challenges with Python, which naturally led me
+              to frameworks like Flask and Django—as well as to essential web
+              technologies like HTML, CSS, and JavaScript. I’ve further
+              sharpened my skills through specialized back-end development
+              training, preparing me to take on the challenges of an entry-level
+              role. I’m always eager to learn, push boundaries, and turn
+              creative technical solutions into reality.
+            </h4>
+            <ul
+              id="tech-list"
+              class="list-unstyled border rounded p-2">
+              <div class="w-100 d-flex flex-column align-items-center">
+                <li class="align-items-center">
+                  <span class="text-black">Stack: </span
+                  ><span class="text-white">
+                    MongoDB or PostgreSql, Express, React, Node</span
+                  >
+                </li>
+                <li>
+                  <span class="text-black">Database Management: </span
+                  ><span class="text-white"
+                    >SQL, MQL, Prisma, GoRM, Mongoose</span
+                  >
+                </li>
+                <li class="text-wrap">
+                  <span class="text-black">Tools and Techniques: </span
+                  ><span class="text-white"
+                    >Agile, Git, VSCode, PyCharm, Typescript, Linux, MacOS,
+                    Bootstrap, TailwindCSS, Postman</span
+                  >
+                </li>
+                <li>
+                  <span class="text-black">Other Languages: </span
+                  ><span class="text-white">Go, Python</span>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div
+          id="header-right"
+          class="w-50">
+          <div class="d-flex justify-content-center flex-column">
+            <div id="headshot-div">
+              <img
+                src="/static/IMG_2248.JPG"
+                alt="Deshon Morgan Headshot" />
+            </div>
+            <!-- SOCIAL MEDIA ICONS -->
+            <div
+              id="media-div"
+              class="w-100 mt-1 d-flex justify-content-center gap-4">
+              <a
+                href="https://www.linkedin.com/in/shoncoding/"
+                class="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i> LinkedIn
+              </a>
+              <a
+                href="https://github.com/skno27"
+                class="btn btn-dark"
+                target="_blank"
+                rel="noopener noreferrer">
+                <i class="bi bi-github"></i> GitHub
+              </a>
+            </div>
+            <br />
+          </div>
+        </div>
+      </div>
+      <div class="w-100 d-flex justify-content-center more">
+        <a
+          class="btn btn-danger"
+          href="info.html"
+          >More</a
+        >
+      </div>
+    </header>
 
     <!-- <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
