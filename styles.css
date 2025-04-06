@@ -42,6 +42,11 @@ body {
   background-color: rgba(169, 134, 87, 0.49); /* Matches #a986577e */
 }
 
+.intro-text {
+  font-size: 1.2rem;
+  color: rgb(138, 138, 138);
+}
+
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
   /* Scale down the headshot for tablets/small screens */
