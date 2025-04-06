@@ -1,10 +1,10 @@
+/* Global Styles */
 * {
   box-sizing: border-box;
 }
 
 html {
-    /* zoom: 150%; */
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -12,132 +12,58 @@ body {
   background-size: cover;
   background-attachment: fixed;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.192) inset;
+  font-family: 'Open Sans', sans-serif;
 }
 
-#wrapper-div {
-  padding: 0 150px;
-  color: white;
-  font-family: 'open sans';
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+/* Intro text color */
+.intro {
+  color: rgb(138, 138, 138);
 }
 
-header {
-  padding: 50px 200px;
-}
-
-.intro { color: rgb(138, 138, 138);}
-
-#header-left {
-  padding-left: 20px;
-}
-
-#header-right {
-
-  padding-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
+/* Headshot Styling */
 #headshot-div {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   overflow: hidden;
   border: 3px solid rgb(110, 110, 110);
 }
 
+/* Ensure headshot image covers container */
 #headshot-div img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* max-width: 65%;
-  max-height: auto; */
-  /* border: 2px solid white;
-  border-radius: 25%; */
 }
 
-#media-div {
-  padding-top: 20px;
-}
-
-button {
-    border: none;
-    border-radius: 1rem;
-}
-
-.card {
-    box-shadow: 0px 1px 8px black;
-}
-
-.container {
-    margin-top: 20px;
-}
-
+/* Tech List Styling */
 #tech-list {
-    box-shadow: 0px 1px 4px black;
-    background-color: #a986577e;
+  box-shadow: 0px 1px 4px black;
+  background-color: rgba(169, 134, 87, 0.49); /* Matches #a986577e */
 }
 
-.container {
-    max-width: 60%;
-}
-
-.more {
-  padding-top: 50px;
-}
-
-.tab-content {
-  padding-top: 30px;
-}
-
-.hidden {
-    opacity: 0;
-    transform: translateY(20px);
-}
-
-.slide-in {
-    transition: transform 0.5s ease, opacity 0.5s ease;
-    opacity: 1;
-    transform: translateY(0);
-}
-
-
-@media (max-width: 862px) {
-    #tech-list {
-      min-width: 100%;
-    }
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  /* Scale down the headshot for tablets/small screens */
+  #headshot-div {
+    width: 200px;
+    height: 200px;
   }
-  
-  @media (max-width: 636px) {
-    #tech-list {
-      min-width: 100%;
-      box-shadow: none;
-      border: none;
-      border-radius: 0;
-    }
-  
-    .container {
-      min-width: 100%;
-    }
-  
-    .border {
-      border: 0;
-    }
+  /* Center-align text in header-left on smaller screens */
+  #header-left h1,
+  #header-left h3,
+  #header-left .intro {
+    text-align: center;
   }
-  
-  @media (max-width: 712px) {
-    div.proj-btns {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      /* border: 2px solid black; */
-    }
-    div.proj-btns > button {
-        min-width: 60%;
-    }
+}
+
+@media (max-width: 576px) {
+  /* Reduce container padding on extra small devices */
+  header .container {
+    padding: 20px 15px;
   }
+  /* Optionally adjust the tech list font-size */
+  #tech-list {
+    font-size: 0.9rem;
+  }
+}
